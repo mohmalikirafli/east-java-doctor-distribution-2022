@@ -11,6 +11,31 @@ This project provides an analysis of the distribution of healthcare personnel, s
 - [Keywords](#keywords)
 - [References](#references)
 
+## File Structures
+```
+├── data
+|   └── Data Analisis Distribusi Dokter di Jatim.sav
+├── Map
+|   ├── 01_Peta Kasus Kusta (Y).png
+|   ├── 02_Peta Kepadatan Penduduk (X1).png
+|   ├── 03_Peta Rumah Sehat (X2).png
+|   ├── 04_Peta Air Minum Aman (X3).png
+|   ├── 05_Peta Tempat dan Fasilitas Umum (X4).png
+|   └── 06_Peta Sanitasi Layak (X5).png
+├── Output
+│   ├── Koef.csv
+│   ├── Matriks Pembobot Fix Gaussian fixx.csv
+│   ├── Output dari Syntax
+│   ├── Z.csv
+|   └── jarak euclidean fix.csv
+├── Syntax Program R
+|   ├── Syntax GWNBR.R
+|   ├── Syntax Statistika Deskriptif.R
+|   └── Syntax Uji Asumsi Spasial.R
+├── LICENSE
+└── README.md
+```
+
 ## Abstract
 
 The equitable distribution of healthcare personnel is tailored to the ideal needs of each region, encompassing both primary and advanced healthcare services. Indonesia faces challenges regarding healthcare worker distribution, which vary by socio-economic conditions, regional policies, and national oversight, particularly in remote areas. This study identifies factors influencing the distribution of doctors across East Java in 2022, such as population size, poverty percentage, and healthcare facilities.
